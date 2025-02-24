@@ -1,0 +1,38 @@
+{
+    "name": "ramazancetinkaya/php-encryption-decryption",
+    "description": "An advanced AES-256-GCM encryption/decryption library with optional URL-safe support for PHP 8.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramazan Çetinkaya",
+            "email": "ramazancetinkaya1337@protonmail.com",
+            "homepage": "https://github.com/ramazancetinkaya",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-openssl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ramazancetinkaya\\": "src/"
+        }
+    },
+    "keywords": [
+        "php",
+        "php-library",
+        "encryption",
+        "decryption",
+        "aes-256-gcm",
+        "url-safe",
+        "security"
+    ],
+    "homepage": "https://github.com/ramazancetinkaya/php-encryption-decryption",
+    "support": {
+        "issues": "https://github.com/ramazancetinkaya/php-encryption-decryption/issues",
+        "source": "https://github.com/ramazancetinkaya/php-encryption-decryption"
+    }
+}
